@@ -1,0 +1,52 @@
+#social-bar-holder {
+  float: left;
+  width: 100%;
+  position: relative;
+  background: url(../img/transparent-dark.png);
+  border-bottom: 1px solid #f4f3ea;
+  padding-top: 14px;
+  padding-bottom: 9px;
+}
+#social-bar {
+  display: block;
+  clear: left;
+  float: right;
+  position: relative;
+  right: 50%;
+  text-align: center;
+}
+#social-bar li {
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 40px 40px 40px 40px;
+}
+#social-bar li a {
+  position: absolute;
+  height: 64px;
+  width: 32px;
+  top: 0;
+  left: 0px;
+  background-repeat: no-repeat;
+}
+#social-bar li a:hover {
+  top: -32px;
+}
+
+#social-bar .facebook a {
+  background-image: url('../img/social/facebook.png');
+}
+#social-bar .googleplus a {
+  background-image: url('../img/social/googleplus.png');
+}
+
+#social-bar .twitter a {
+  background-image: url('../img/social/twitter.png');
+}
